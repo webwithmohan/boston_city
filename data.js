@@ -23219,7 +23219,7 @@ var boston={
 
         for (let i = 0; i < len; i++) {
 
-            if (people[i][11] >= 181000) {
+            if (people[i][11] >= 2e5) {
                 html +=
                     '<li class="post">' + '<h2>' + people[i][8] + '</h2>' + '<h3>' + people[i][11] + '</h3>';
             }
